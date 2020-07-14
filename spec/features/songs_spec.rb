@@ -19,7 +19,7 @@ describe "songs", type:  :feature do
     #     expect(page).to have_link(@artist.name, href: artist_songs_path(@artist))
     #     expect(page).to have_text("Artist not found")
     #   end
-    # end
+    end
 
     describe "/artists/:artist_id/songs/:id" do
       it "displays the song" do
